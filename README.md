@@ -1,8 +1,8 @@
-#User Profile Management App
+# User Profile Management App
 
 This application is a user profile management app built using Kotlin and Jetpack Compose. It follows the principles of clean architecture, ensuring a well-structured and maintainable codebase.
 
-##Features
+## Features
 
 User Profile Screen: Displays user information such as name and email. It includes an input field for entering a user ID and a button to load user data.
 
@@ -16,7 +16,7 @@ Error Handling: Displays error messages if there is an issue loading user data.
 
 Dependency Injection: Uses Dagger Hilt for dependency injection to manage dependencies efficiently.
 
-##Architecture
+## Architecture
 
 The project is divided into distinct layers, each with specific responsibilities:
 
@@ -30,9 +30,9 @@ Dependency Injection: Dagger Hilt is used for dependency injection, ensuring tha
 
 Each layer interacts with the one directly below it, ensuring separation of concerns and making the codebase more maintainable and testable.
 
-##Getting Started
+## Getting Started
 
-###Prerequisites
+### Prerequisites
 
 -Android Studio
 
@@ -40,7 +40,7 @@ Each layer interacts with the one directly below it, ensuring separation of conc
 
 -Gradle
 
-#Installation
+# Installation
 
 -Clone the repository: git clone https://github.com/ThatFireBoi/UserProfileApp.git
 
